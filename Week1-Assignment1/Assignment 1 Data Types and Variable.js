@@ -123,7 +123,7 @@ const myAnswerForExercise21 = "true";
 console.log(1 < 2 < 3)// checking the output.
 
 // Exercise 22 What is the value of 2 < 1 < 3
-const myAnswerForExercise22 = "true";
-console.log(1 < 2 < 3)// checking the output. Since 2 is not less than 1 it returns false, and since 1 is less than 3 it returns true.  
+const myAnswerForExercise22 = "false";
+console.log(2 < 1 && 2 < 1)// checking the output. Since 2 is not less than 1 it returns false, and since 1 is less than 3 it returns true. As discussed in the breakout room today and I searched online, < operator only compares 2 integers. Since 1<2 is false which gives 0, 0 <3 is true, hence script was giving value as "true".  
 
 // Exercises were easy. I got stuck at concatenation exercise 9, but was able to look it up online and used the following website: https://docs.microsoft.com/en-us/dotnet/csharp/how-to/concatenate-multiple-strings
