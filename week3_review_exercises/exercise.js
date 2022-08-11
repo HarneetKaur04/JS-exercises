@@ -101,6 +101,6 @@ console.log(currentTime)
 let hours = currentTime.getHours() * 60
 let minutes = currentTime.getMinutes()
 let minuteLapsed = hours + minutes
-console.log(minuteLapsed + " minutes")
+console.log(minuteLapsed + " minutes")   //
 
 
